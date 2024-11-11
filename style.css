@@ -37,7 +37,7 @@ body {
 .menu-area {
     position: relative;
     z-index: 2;
-    padding: 100px 0;
+    padding: 0px 0px 100px 0px;
     color: #fff;
 }
 
@@ -183,12 +183,12 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
 }
 
 .menu li a:hover {
-    background-color:#FAA71C;
+    border-bottom: #FAA71C 2px solid;
 }
 
 .nav-bar{
